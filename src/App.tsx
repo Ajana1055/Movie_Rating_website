@@ -1,9 +1,6 @@
-
-
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useParams } from "react-router-dom";
 import axios from "axios";
-
 
 const API_KEY = "9b3f8ab8";
 
@@ -55,12 +52,7 @@ const MovieDetails: React.FC<{ id: string }> = ({ id }) => {
     });
   }, [id]);
 
-  if (!movie) return <p>
-    Loading...
-    
-
-    
-    </p>;
+  if (!movie) return <p>Loading...</p>;
 
   return (
     <div>
