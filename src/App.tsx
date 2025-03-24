@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useParams } from "react-router-dom";
 import axios from "axios";
 
-//import { BoltLoader } from "react-awesome-loaders";
+
 const API_KEY = "9b3f8ab8";
 
 const SearchMovies: React.FC = () => {
@@ -57,11 +57,7 @@ const MovieDetails: React.FC<{ id: string }> = ({ id }) => {
 
   if (!movie) return <p>
     Loading...
-    {/* <BoltLoader
-        className={"loaderbolt"}
-        boltColor={"#6366F1"}
-        backgroundBlurColor={"#E0E7FF"}
-      /> */}
+    
 
     
     </p>;
