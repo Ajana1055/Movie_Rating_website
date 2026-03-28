@@ -10,7 +10,7 @@ A React-based web application that allows users to search for movies, view detai
 
 💾 Save favorite movies to a watchlist
 
-🎨 Responsive UI with a clean, modern design
+🎨 Responsive UI with a clean, modern design 
 
 🛠️ Tech Stack
 Frontend: React, React Router, Tailwind CSS
